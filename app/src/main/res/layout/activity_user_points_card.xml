@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".UserAchievementsCardActivity"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="8"
+        android:background="@drawable/user_points_card_section_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/user_points_card_animals_got_help"
+            android:textAllCaps="true"
+            android:textColor="#AEAEAE"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/user_points_card_animals_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="22dp"
+            android:paddingBottom="26dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/points_card_animal"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:id="@+id/tv_animals_saved_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:gravity="center_horizontal"
+                android:text="12"
+                android:textColor="#23262F"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/user_points_card_section_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="@string/user_points_card_scores"
+            android:gravity="center_horizontal"
+            android:textColor="#AEAEAE"
+            android:textAllCaps="true"
+            android:textSize="12sp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="18dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:text="456"
+                android:gravity="center_horizontal"
+                android:textColor="#23262F"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:layout_marginEnd="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_bold"
+                tools:text="/ 500"
+                android:gravity="center_horizontal"
+                android:textColor="#AEAEAE"
+                android:textAllCaps="true"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_progress_to_next_animal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_marginTop="14dp"
+            android:progressDrawable="@drawable/user_points_progress"
+            android:progress="12"/>
+
+        <TextView
+            android:id="@+id/tv_points_left_to_save_animal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:layout_marginTop="14dp"
+            android:text="44 left to save next animal"
+            android:gravity="center_horizontal"
+            android:textColor="#AEAEAE"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/btn_how_it_works"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/user_points_card_button_bg"
+            android:textColor="#424242"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:textAllCaps="false"
+            android:text="@string/user_points_card_btn_text"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

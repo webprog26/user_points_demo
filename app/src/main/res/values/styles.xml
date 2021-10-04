@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="IteoraDialogWhenLarge" parent="Theme.AppCompat.DayNight.DialogWhenLarge">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="UserAchievementsButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/user_points_button_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="UserPointsText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#23262F</item>
+    </style>
+
+    <style name="UserPointsTextBold" parent="UserPointsText">
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/proxima_nova_bold</item>
+    </style>
+
+    <style name="UserPointsTextRegular" parent="UserPointsText">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

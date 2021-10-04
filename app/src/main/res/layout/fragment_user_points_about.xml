@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="128dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/user_points_about" />
+    </FrameLayout>
+
+    <include
+        layout="@layout/pagemarks_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        style="@style/UserPointsTextBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center_horizontal"
+        android:text="@string/user_points_about_title" />
+
+    <TextView
+        style="@style/UserPointsTextRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/user_points_about_text" />
+
+</LinearLayout>

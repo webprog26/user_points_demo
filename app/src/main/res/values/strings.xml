@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">User Achievements Onboarding</string>
+
+    <string name="user_achievements_button_next_text">Next</string>
+    <string name="user_achievements_button_done_text">Done</string>
+    <string name="user_points_about_title">How it works</string>
+    <string name="user_points_about_text">To save 1 animal you need to get 500 points. This equals the minimal amount of money we can donate to the animal welfare fund.</string>
+    <string name="user_points_default_browser_title">you get 100 points.</string>
+    <string name="user_points_default_browser_text">For making Wild Browser your default browser</string>
+    <string name="user_points_search_title">you get 20 points.</string>
+    <string name="user_points_search_text">For each search</string>
+    <string name="user_points_website_text">For each visited website</string>
+    <string name="user_points_website_title">you get 1 point.</string>
+    <string name="user_points_animal_title">Got 500 points?</string>
+    <string name="user_points_animal_text">Great, you helped to save at least 1 animal!</string>
+    <string name="title_activity_user_achievements_card">UserAchievementsCardActivity</string>
+
+    <string name="user_points_card_animals_got_help">Animals got help</string>
+    <string name="user_points_card_scores">Scores</string>
+
+    <string name="points_left_to_save_next_animal">%1$d left to save next animal</string>
+    <string name="user_points_card_btn_text">How it works?</string>
+
+</resources>
